@@ -4,7 +4,7 @@ namespace Rafiadev11\Modulastic;
 
 class SayHi
 {
-    public function hello()
+    public function Yo()
     {
         return 'Hi';
     }
