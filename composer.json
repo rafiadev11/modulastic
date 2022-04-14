@@ -1,0 +1,24 @@
+{
+    "name": "rafiadev11/modulastic",
+    "description": "Modularize your laravel application",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rachid Rafia",
+            "email": "rafiadev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rafiadev11\\Modulastic\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rafiadev11\\Modulastic\\ModulasticServiceProvider"
+            ]
+        }
+    }
+}
